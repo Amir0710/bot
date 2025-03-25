@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.a80dab4f.css",
-    "main.js": "/static/js/main.56ddcd7b.js",
+    "main.css": "/static/css/main.cf9d5d0d.css",
+    "main.js": "/static/js/main.60e619a2.js",
     "index.html": "/index.html",
     "static/media/coinsmall.webp": "/static/media/coinsmall.f6f06ff640e5df45b650.webp",
     "static/media/whatsapp.svg": "/static/media/whatsapp.a5b7019dda60358716061674ac9c42b4.svg",
     "static/media/twitter.svg": "/static/media/twitter.a24e975c9f26cf2cfa88cf838266778d.svg",
     "static/media/facebook.svg": "/static/media/facebook.08ed0d64ea14d23ab0528a12be12499c.svg",
     "static/media/telegram.svg": "/static/media/telegram.c7b359a0105dea5ce0362d65465c4633.svg",
-    "main.a80dab4f.css.map": "/static/css/main.a80dab4f.css.map",
-    "main.56ddcd7b.js.map": "/static/js/main.56ddcd7b.js.map"
+    "main.cf9d5d0d.css.map": "/static/css/main.cf9d5d0d.css.map",
+    "main.60e619a2.js.map": "/static/js/main.60e619a2.js.map"
   },
   "entrypoints": [
-    "static/css/main.a80dab4f.css",
-    "static/js/main.56ddcd7b.js"
+    "static/css/main.cf9d5d0d.css",
+    "static/js/main.60e619a2.js"
   ]
 }
