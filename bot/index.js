@@ -29,8 +29,9 @@ app.listen(port, async () => {
 });
 
 const web_link = "https://basxbot.netlify.app"; 
-const community_link = "https://t.me/tracexweb3";
-const dm = "https://t.me/tracexpro";
+const community_link = "https://t.me/ostad_coin";
+const dm = "https://t.me/َAR_1007";
+// #https://t.me/ostadshajarian_bot
 
 bot.start((ctx) => {
     const startPayload = ctx.startPayload;
@@ -38,20 +39,15 @@ bot.start((ctx) => {
     const user = ctx.message.from;
     const userName = user.username ? `@${user.username}` : user.first_name;
 
-    ctx.replyWithMarkdown(`*Hey, ${userName}! Welcome to Tracex Bot!*
+    ctx.replyWithMarkdown(`*سلام, ${userName}!به ربات استاد شچربان خوش اومدی!*
     
-Unlock exclusive airdrops and start mining $TRACEX cryptocurrency with ease 🔓.
-    
-Earn $TRACEX tokens daily and convert them into USDT or other top assets like BNB, SOL, and more 💰.
-
-Invite your friends, family, and colleagues to join the game 🤑.
-    
-If you want to purchase this bot's source code, feel free to contact @tracexpro`, {
+این ارز برای یاد یود استاد شجریان و با هدف پیشرفت ایران و مردمی والا توسعه پیدا کرده 
+امید داربم که بتوانیم جامعه ای بهتر بسازیم `, {
         reply_markup: {
             inline_keyboard: [
-                [{ text: "Play Now! 🎮", web_app: { url: urlSent } }],
-                [{ text: "Join our Community ❤️ ", url: community_link }],
-                [{ text: "Buy Tracex Bot 🤖", url: dm }],
+                [{ text: "بازی کن 🎮", web_app: { url: urlSent } }],
+                [{ text: "پبوستن به دورهمی ❤️ ", url: community_link }],
+                [{ text: "پشتیبانی 🤖", url: dm }],
             ],
         },
     });
